@@ -9,8 +9,10 @@
 
 解密密文： decryptCode := AesDecrypt(encryptCode, key)
 
-
+```
 import "github.com/conanwang/encrypPass"
 
-encryptCode := encrypPass.AesEncrypt("plainText", "123")
+encryptCode := encrypPass.AesEncrypt("plainText", "123")  
+
 decryptCode := encrypPass.AesDecrypt("encryptCode", "123")
+```
