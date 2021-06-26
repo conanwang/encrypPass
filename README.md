@@ -9,7 +9,7 @@
 
 解密密文： decryptCode := AesDecrypt(encryptCode, key)
 
-orig 明文字符串
+orig 明文字符串  
 encryptCode 密文字符串
 key 加解密密钥，这里注意key的长度要是24位，否则加密函数会报错，算法决定
 ```
